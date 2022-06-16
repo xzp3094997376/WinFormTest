@@ -19,7 +19,17 @@ namespace HelloWinForm
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            this.BackColor = Color.Aqua;
+        }
 
+        private void Form1_MouseClick(object sender, MouseEventArgs e)
+        {
+            this.BackColor = Color.Blue;
+        }
+
+        private void Form1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            this.BackColor = Color.Red;
         }
     }
 }
